@@ -1,0 +1,8 @@
+com\synergy\hrm\model\EmployeeEmbeddables\HealthInformation.class
+com\synergy\hrm\dao\EmployeeRepository.class
+com\synergy\hrm\model\EmployeeEmbeddables\AddressInformation.class
+com\synergy\hrm\model\EmployeeEmbeddables\FamilyInformation.class
+com\synergy\hrm\model\Employee.class
+com\synergy\hrm\HrmApplication.class
+com\synergy\hrm\model\EmployeeEmbeddables\PersonalInformation.class
+com\synergy\hrm\controller\EmployeeController.class

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.synergy.hrm.HrmApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.878 s <<< FAILURE! - in com.synergy.hrm.HrmApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: com.synergy.hrm.model.Employee column: ward_no (should be mapped with insert="false" update="false")
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: com.synergy.hrm.model.Employee column: ward_no (should be mapped with insert="false" update="false")
+Caused by: org.hibernate.MappingException: Repeated column in mapping for entity: com.synergy.hrm.model.Employee column: ward_no (should be mapped with insert="false" update="false")
+
