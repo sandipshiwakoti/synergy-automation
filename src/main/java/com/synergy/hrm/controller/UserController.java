@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("api/")
 // @CrossOrigin("http://localhost:3000")
-// @CrossOrigin(origins = "*")
-@CrossOrigin("https://synergy-hrm.herokuapp.com")
+@CrossOrigin(origins = "*")
+// @CrossOrigin("https://synergy-hrm.herokuapp.com")
 public class UserController {
     @Autowired
     UserRepository userRepo;
